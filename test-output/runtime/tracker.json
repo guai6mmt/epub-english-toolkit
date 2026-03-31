@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "items": {
+    "sample-weekly-2026-03-31:study:1": {
+      "status": "completed",
+      "kind": "study",
+      "pack_id": "sample-weekly-2026-03-31",
+      "note": "",
+      "completed_at": "2026-03-31T10:40:22.616990+00:00"
+    }
+  }
+}

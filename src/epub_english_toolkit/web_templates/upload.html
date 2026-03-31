@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="panel form-panel">
+  <div class="panel-head">
+    <div>
+      <p class="eyebrow">Upload</p>
+      <h1>Import A New EPUB</h1>
+      <p class="muted">Upload a weekly issue, choose the study mode, and let the server create your next pack in the background.</p>
+    </div>
+  </div>
+
+  {% if not upload_enabled %}
+  <div class="error-box">
+    Upload is disabled because <code>python-multipart</code> is not installed in the current environment. The deployment setup in this repo installs it automatically.
+  </div>
+  {% endif %}
+
+  <form class="upload-form" method="post" action="/upload" enctype="multipart/form-data">
+    <label>
+      <span>EPUB File</span>
+      <input type="file" name="file" accept=".epub" required>
+    </label>
+    <label>
+      <span>Start Date</span>
+      <input type="date" name="start_date" value="{{ today }}" required>
+    </label>
+    <label>
+      <span>Mode</span>
+      <select name="mode">
+        <option value="ielts" {% if default_mode == "ielts" %}selected{% endif %}>IELTS</option>
+        <option value="general" {% if default_mode == "general" %}selected{% endif %}>General</option>
+      </select>
+    </label>
+    <label>
+      <span>Focus Topics</span>
+      <input type="text" name="focus_topics" value="{{ default_focus_topics }}">
+      <small>Comma separated, for example: politics,business,culture</small>
+    </label>
+    <div class="inline-fields">
+      <label>
+        <span>Deep Reads</span>
+        <input type="number" name="main_count" min="0" value="2">
+      </label>
+      <label>
+        <span>Fast Reads</span>
+        <input type="number" name="short_count" min="0" value="3">
+      </label>
+    </div>
+    <button class="button primary" type="submit" {% if not upload_enabled %}disabled{% endif %}>Upload And Generate</button>
+  </form>
+</section>
+{% endblock %}

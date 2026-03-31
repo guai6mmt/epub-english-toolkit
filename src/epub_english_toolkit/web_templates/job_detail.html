@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="panel">
+  <div class="panel-head">
+    <div>
+      <p class="eyebrow">Upload Job</p>
+      <h1>#{{ job.id }} {{ job.filename }}</h1>
+      <p class="muted">Status: <span class="status {{ job.status }}">{{ job.status }}</span></p>
+    </div>
+  </div>
+
+  <dl class="detail-grid">
+    <div><dt>Start Date</dt><dd>{{ job.start_date }}</dd></div>
+    <div><dt>Mode</dt><dd>{{ job.mode }}</dd></div>
+    <div><dt>Focus Topics</dt><dd>{{ job.focus_topics }}</dd></div>
+    <div><dt>Created</dt><dd>{{ job.created_at }}</dd></div>
+    {% if job.book_id %}
+    <div><dt>Book ID</dt><dd>{{ job.book_id }}</dd></div>
+    {% endif %}
+    {% if job.pack_id %}
+    <div><dt>Pack ID</dt><dd><a href="/packs/{{ job.pack_id }}">{{ job.pack_id }}</a></dd></div>
+    {% endif %}
+  </dl>
+
+  {% if job.error_message %}
+  <div class="error-box">{{ job.error_message }}</div>
+  {% endif %}
+
+  {% if pack %}
+  <section class="subpanel">
+    <h2>Pack Ready</h2>
+    <p>You can now open the generated study pack and start learning.</p>
+    <a class="button primary" href="/packs/{{ job.pack_id }}">Open Pack</a>
+  </section>
+  {% else %}
+  <section class="subpanel">
+    <h2>Still Processing</h2>
+    <p>Refresh this page in a moment if the job is still queued or processing.</p>
+  </section>
+  {% endif %}
+</section>
+{% endblock %}

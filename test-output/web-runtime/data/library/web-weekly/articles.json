@@ -1,0 +1,76 @@
+[
+  {
+    "article_id": "general-business",
+    "book_id": "web-weekly",
+    "title": "Business",
+    "section": "General",
+    "order": 1,
+    "href": "article1.xhtml",
+    "word_count": 445,
+    "reading_minutes": 2,
+    "paragraphs": [
+      "Energy policy and urban change",
+      "Governments, businesses and ordinary readers all respond differently when energy, politics and technology begin to reshape everyday life, and that tension creates useful material for advanced English learners. A well-written article explains the issue, compares competing arguments, provides evidence and ends with a measured judgement that can be reused in both speaking and writing practice.",
+      "Governments, businesses and ordinary readers all respond differently when energy, politics and technology begin to reshape everyday life, and that tension creates useful material for advanced English learners. A well-written article explains the issue, compares competing arguments, provides evidence and ends with a measured judgement that can be reused in both speaking and writing practice.",
+      "Governments, businesses and ordinary readers all respond differently when energy, politics and technology begin to reshape everyday life, and that tension creates useful material for advanced English learners. A well-written article explains the issue, compares competing arguments, provides evidence and ends with a measured judgement that can be reused in both speaking and writing practice.",
+      "Governments, businesses and ordinary readers all respond differently when energy, politics and technology begin to reshape everyday life, and that tension creates useful material for advanced English learners. A well-written article explains the issue, compares competing arguments, provides evidence and ends with a measured judgement that can be reused in both speaking and writing practice.",
+      "Governments, businesses and ordinary readers all respond differently when energy, politics and technology begin to reshape everyday life, and that tension creates useful material for advanced English learners. A well-written article explains the issue, compares competing arguments, provides evidence and ends with a measured judgement that can be reused in both speaking and writing practice.",
+      "Governments, businesses and ordinary readers all respond differently when energy, politics and technology begin to reshape everyday life, and that tension creates useful material for advanced English learners. A well-written article explains the issue, compares competing arguments, provides evidence and ends with a measured judgement that can be reused in both speaking and writing practice.",
+      "Governments, businesses and ordinary readers all respond differently when energy, politics and technology begin to reshape everyday life, and that tension creates useful material for advanced English learners. A well-written article explains the issue, compares competing arguments, provides evidence and ends with a measured judgement that can be reused in both speaking and writing practice.",
+      "Governments, businesses and ordinary readers all respond differently when energy, politics and technology begin to reshape everyday life, and that tension creates useful material for advanced English learners. A well-written article explains the issue, compares competing arguments, provides evidence and ends with a measured judgement that can be reused in both speaking and writing practice."
+    ],
+    "tags": [
+      "business",
+      "ielts-writing"
+    ],
+    "excerpt": "Energy policy and urban change",
+    "difficulty_score": 100,
+    "difficulty_level": "C2",
+    "difficulty_metrics": {
+      "word_count": 445,
+      "sentence_count": 17,
+      "avg_sentence_length": 26.18,
+      "lexical_density": 0.674,
+      "unique_ratio": 0.133,
+      "long_word_ratio": 0.521,
+      "capitalized_ratio": 0.056
+    }
+  },
+  {
+    "article_id": "general-culture",
+    "book_id": "web-weekly",
+    "title": "Culture",
+    "section": "General",
+    "order": 2,
+    "href": "article2.xhtml",
+    "word_count": 444,
+    "reading_minutes": 2,
+    "paragraphs": [
+      "Culture, tourism and identity",
+      "Governments, businesses and ordinary readers all respond differently when energy, politics and technology begin to reshape everyday life, and that tension creates useful material for advanced English learners. A well-written article explains the issue, compares competing arguments, provides evidence and ends with a measured judgement that can be reused in both speaking and writing practice.",
+      "Governments, businesses and ordinary readers all respond differently when energy, politics and technology begin to reshape everyday life, and that tension creates useful material for advanced English learners. A well-written article explains the issue, compares competing arguments, provides evidence and ends with a measured judgement that can be reused in both speaking and writing practice.",
+      "Governments, businesses and ordinary readers all respond differently when energy, politics and technology begin to reshape everyday life, and that tension creates useful material for advanced English learners. A well-written article explains the issue, compares competing arguments, provides evidence and ends with a measured judgement that can be reused in both speaking and writing practice.",
+      "Governments, businesses and ordinary readers all respond differently when energy, politics and technology begin to reshape everyday life, and that tension creates useful material for advanced English learners. A well-written article explains the issue, compares competing arguments, provides evidence and ends with a measured judgement that can be reused in both speaking and writing practice.",
+      "Governments, businesses and ordinary readers all respond differently when energy, politics and technology begin to reshape everyday life, and that tension creates useful material for advanced English learners. A well-written article explains the issue, compares competing arguments, provides evidence and ends with a measured judgement that can be reused in both speaking and writing practice.",
+      "Governments, businesses and ordinary readers all respond differently when energy, politics and technology begin to reshape everyday life, and that tension creates useful material for advanced English learners. A well-written article explains the issue, compares competing arguments, provides evidence and ends with a measured judgement that can be reused in both speaking and writing practice.",
+      "Governments, businesses and ordinary readers all respond differently when energy, politics and technology begin to reshape everyday life, and that tension creates useful material for advanced English learners. A well-written article explains the issue, compares competing arguments, provides evidence and ends with a measured judgement that can be reused in both speaking and writing practice.",
+      "Governments, businesses and ordinary readers all respond differently when energy, politics and technology begin to reshape everyday life, and that tension creates useful material for advanced English learners. A well-written article explains the issue, compares competing arguments, provides evidence and ends with a measured judgement that can be reused in both speaking and writing practice."
+    ],
+    "tags": [
+      "culture",
+      "ielts-writing"
+    ],
+    "excerpt": "Culture, tourism and identity",
+    "difficulty_score": 100,
+    "difficulty_level": "C2",
+    "difficulty_metrics": {
+      "word_count": 444,
+      "sentence_count": 17,
+      "avg_sentence_length": 26.12,
+      "lexical_density": 0.673,
+      "unique_ratio": 0.134,
+      "long_word_ratio": 0.529,
+      "capitalized_ratio": 0.056
+    }
+  }
+]

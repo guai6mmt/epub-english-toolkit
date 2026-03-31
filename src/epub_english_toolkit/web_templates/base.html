@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ title or app_name }}</title>
+    <link rel="stylesheet" href="/static/app.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="shell">
+        <div class="brand">
+          <a href="/dashboard">{{ app_name }}</a>
+          <span class="brand-note">Upload EPUB, learn daily, track progress</span>
+        </div>
+        <nav class="top-nav">
+          <a href="/dashboard">Dashboard</a>
+          <a href="/upload">Upload</a>
+        </nav>
+      </div>
+    </header>
+    <main class="shell page-shell">
+      {% block content %}{% endblock %}
+    </main>
+  </body>
+</html>

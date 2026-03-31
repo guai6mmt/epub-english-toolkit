@@ -1,0 +1,161 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero">
+  <div>
+    <p class="eyebrow">Today</p>
+    <h1>Your Learning Dashboard</h1>
+    <p class="hero-copy">Open one page, see what to study today, what to review, and how far you have already come.</p>
+  </div>
+  <div class="hero-actions">
+    <a class="button primary" href="/upload">Upload New EPUB</a>
+  </div>
+</section>
+
+<section class="stats-grid">
+  <article class="stat-card">
+    <span class="stat-label">Study Tasks</span>
+    <strong>{{ progress.study_tasks }}</strong>
+    <span class="stat-meta">{{ progress.completed_study_tasks }} completed</span>
+  </article>
+  <article class="stat-card">
+    <span class="stat-label">Review Tasks</span>
+    <strong>{{ progress.review_tasks }}</strong>
+    <span class="stat-meta">{{ progress.completed_review_tasks }} completed</span>
+  </article>
+  <article class="stat-card">
+    <span class="stat-label">Study Rate</span>
+    <strong>{{ "%.0f"|format(progress.study_completion_rate * 100) }}%</strong>
+    <span class="stat-meta">Focus on consistency, not volume</span>
+  </article>
+  <article class="stat-card">
+    <span class="stat-label">Review Rate</span>
+    <strong>{{ "%.0f"|format(progress.review_completion_rate * 100) }}%</strong>
+    <span class="stat-meta">Review is what makes input stick</span>
+  </article>
+</section>
+
+<div class="content-grid">
+  <section class="panel panel-large">
+    <div class="panel-head">
+      <div>
+        <p class="eyebrow">Today</p>
+        <h2>{{ today }}</h2>
+      </div>
+    </div>
+
+    <div class="task-columns">
+      <div>
+        <h3>Study Tasks</h3>
+        {% if today_plan.study_tasks %}
+          {% for task in today_plan.study_tasks %}
+          <article class="task-card">
+            <div class="task-topline">
+              <span class="pill">{{ task.section }}</span>
+              <span class="pill subtle">{{ task.mode }}</span>
+              <span class="status {{ task.status }}">{{ task.status }}</span>
+            </div>
+            <h4>{{ task.title }}</h4>
+            <p class="muted">{{ task.estimated_minutes }} min · {{ task.difficulty_level }} {{ task.difficulty_score }}</p>
+            <ul class="plain-list">
+              {% for item in task.reading_focus %}
+              <li>{{ item }}</li>
+              {% endfor %}
+            </ul>
+            <div class="task-actions">
+              <a class="button ghost" href="/packs/{{ task.pack_id }}">Open Pack</a>
+              <a
+                class="button primary"
+                href="/progress/update?item_id={{ task.task_id|urlencode }}&kind=study&pack_id={{ task.pack_id|urlencode }}&status={{ 'pending' if task.status == 'completed' else 'completed' }}&next_url=%2Fdashboard"
+              >{{ "Mark Pending" if task.status == "completed" else "Mark Complete" }}</a>
+            </div>
+          </article>
+          {% endfor %}
+        {% else %}
+          <p class="empty">No study task is scheduled for today yet. Upload an EPUB or generate a new study pack.</p>
+        {% endif %}
+      </div>
+
+      <div>
+        <h3>Review Tasks</h3>
+        {% if today_plan.review_tasks %}
+          {% for review in today_plan.review_tasks %}
+          <article class="task-card compact">
+            <div class="task-topline">
+              <span class="pill">{{ review.section }}</span>
+              <span class="status {{ review.status }}">{{ review.status }}</span>
+            </div>
+            <h4>{{ review.title }}</h4>
+            <p>{{ review.prompt }}</p>
+              <a
+                class="button ghost"
+                href="/progress/update?item_id={{ review.review_id|urlencode }}&kind=review&pack_id={{ review.pack_id|urlencode }}&status={{ 'pending' if review.status == 'completed' else 'completed' }}&next_url=%2Fdashboard"
+              >{{ "Undo" if review.status == "completed" else "Complete Review" }}</a>
+          </article>
+          {% endfor %}
+        {% else %}
+          <p class="empty">No review task is due today.</p>
+        {% endif %}
+      </div>
+    </div>
+  </section>
+
+  <aside class="side-stack">
+    <section class="panel">
+      <div class="panel-head">
+        <div>
+          <p class="eyebrow">Library</p>
+          <h2>Recent Books</h2>
+        </div>
+      </div>
+      <ul class="summary-list">
+        {% for book in books %}
+        <li>
+          <strong>{{ book.title }}</strong>
+          <span>{{ book.article_count }} articles</span>
+        </li>
+        {% else %}
+        <li class="empty">No books imported yet.</li>
+        {% endfor %}
+      </ul>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <div>
+          <p class="eyebrow">Study Packs</p>
+          <h2>Recent Packs</h2>
+        </div>
+      </div>
+      <ul class="summary-list">
+        {% for pack in packs %}
+        <li>
+          <a href="/packs/{{ pack.pack_id }}"><strong>{{ pack.pack_id }}</strong></a>
+          <span>{{ pack.completed_tasks }}/{{ pack.task_count }} complete</span>
+        </li>
+        {% else %}
+        <li class="empty">No packs yet.</li>
+        {% endfor %}
+      </ul>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <div>
+          <p class="eyebrow">Background Jobs</p>
+          <h2>Uploads</h2>
+        </div>
+      </div>
+      <ul class="summary-list">
+        {% for job in jobs %}
+        <li>
+          <a href="/jobs/{{ job.id }}"><strong>#{{ job.id }} {{ job.filename }}</strong></a>
+          <span class="status {{ job.status }}">{{ job.status }}</span>
+        </li>
+        {% else %}
+        <li class="empty">No upload jobs yet.</li>
+        {% endfor %}
+      </ul>
+    </section>
+  </aside>
+</div>
+{% endblock %}

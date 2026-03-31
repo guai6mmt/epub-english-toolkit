@@ -1,0 +1,648 @@
+{
+  "pack_id": "te-2026-03-21-2026-03-31",
+  "book_id": "te-2026-03-21",
+  "created_at": "2026-03-31T09:53:38.402911+00:00",
+  "start_date": "2026-03-31",
+  "focus_topics": [
+    "politics",
+    "business",
+    "culture"
+  ],
+  "selected_articles": [
+    {
+      "article_id": "the-americas-cuba-s-broken-economy-leaves-it-at-donald-trump-s-mercy",
+      "title": "Cuba’s broken economy leaves it at Donald Trump’s mercy",
+      "section": "The Americas",
+      "task_type": "deep_read",
+      "word_count": 2551,
+      "reading_minutes": 12,
+      "tags": [
+        "business",
+        "ielts-speaking",
+        "ielts-writing",
+        "politics"
+      ],
+      "excerpt": "On March 16th Oscar Pérez-Oliva Fraga, a great-nephew of Fidel Castro, appeared on “Mesa Redonda”, a state-television programme. He announced that Cubans living abroad would now be permitted to own businesses and inve...",
+      "difficulty_score": 83,
+      "difficulty_level": "C2"
+    },
+    {
+      "article_id": "finance-economics-china-cannot-escape-the-energy-shock",
+      "title": "China cannot escape the energy shock",
+      "section": "Finance & economics",
+      "task_type": "deep_read",
+      "word_count": 1006,
+      "reading_minutes": 5,
+      "tags": [
+        "business",
+        "ielts-speaking",
+        "ielts-writing",
+        "politics"
+      ],
+      "excerpt": "THE COASTAL Chinese city of Zhuhai is linked to Hong Kong by a showy piece of infrastructure: a 55km (34-mile) bridge and tunnel, the largest sea crossing of its kind. Some Hong Kongers use it to visit Chimelong Ocean...",
+      "difficulty_score": 85,
+      "difficulty_level": "C2"
+    },
+    {
+      "article_id": "culture-which-is-the-best-sparkling-water",
+      "title": "Which is the best sparkling water?",
+      "section": "Culture",
+      "task_type": "fast_read",
+      "word_count": 441,
+      "reading_minutes": 2,
+      "tags": [
+        "culture"
+      ],
+      "excerpt": "ANGELO ROEFARO loves nothing. He wants you to love nothing, too. A small, trim man with a neat beard, he manned his stall at the recent Brooklyn SeltzerFest with the manic energy of a caffeinated terrier, thrusting li...",
+      "difficulty_score": 86,
+      "difficulty_level": "C2"
+    },
+    {
+      "article_id": "middle-east-africa-a-shake-up-at-africa-s-spikiest-media-group",
+      "title": "A shake-up at Africa’s spikiest media group",
+      "section": "Middle East & Africa",
+      "task_type": "fast_read",
+      "word_count": 421,
+      "reading_minutes": 2,
+      "tags": [
+        "politics"
+      ],
+      "excerpt": "Kenya’s press has long been known for its independence. Even before multiparty democracy was restored in the 1990s, the Guardian, a British daily, declared it (perhaps a bit breathlessly) sub-Saharan Africa’s “only tr...",
+      "difficulty_score": 93,
+      "difficulty_level": "C2"
+    },
+    {
+      "article_id": "asia-a-deadly-strike-in-kabul-could-have-big-knock-on-effects",
+      "title": "A deadly strike in Kabul could have big knock-on effects",
+      "section": "Asia",
+      "task_type": "fast_read",
+      "word_count": 373,
+      "reading_minutes": 2,
+      "tags": [
+        "politics"
+      ],
+      "excerpt": "BACK IN 2010 it was known as Camp Phoenix, an American base. More recently it was called the Omid Addiction Treatment Hospital, where more than 2,000 patients—most of them hooked on heroin or methamphetamine—were give...",
+      "difficulty_score": 92,
+      "difficulty_level": "C2"
+    }
+  ],
+  "weekly_plan": [
+    {
+      "date": "2026-03-31",
+      "task_id": "te-2026-03-21-2026-03-31:study:1",
+      "article_id": "the-americas-cuba-s-broken-economy-leaves-it-at-donald-trump-s-mercy",
+      "title": "Cuba’s broken economy leaves it at Donald Trump’s mercy",
+      "section": "The Americas",
+      "task_type": "deep_read",
+      "reading_focus": [
+        "Skim 'Cuba’s broken economy leaves it at Donald Trump’s mercy' in 3 minutes and write the main idea of each paragraph group.",
+        "Underline the author's opinion, any concession, and the final conclusion.",
+        "Choose 3 phrases you could reuse in IELTS Writing Task 2."
+      ],
+      "speaking_task": {
+        "warmup": "Give a 30-second summary of why 'Cuba’s broken economy leaves it at Donald Trump’s mercy' matters.",
+        "retell": "Record a 2-minute retelling: issue, causes, consequences, and your opinion.",
+        "part3_questions": [
+          "Why do international readers care about the americas issues like this?",
+          "Do media reports shape public opinion or mainly reflect it?",
+          "What background knowledge would help someone discuss this topic confidently in IELTS?"
+        ],
+        "shadowing_sentence": "On March 16th Oscar Pérez-Oliva Fraga, a great-nephew of Fidel Castro, appeared on “Mesa Redonda”, a state-television programme.",
+        "part2_cue_card": {
+          "prompt": "Describe a news issue related to 'Cuba’s broken economy leaves it at Donald Trump’s mercy' that people should understand better.",
+          "bullet_points": [
+            "What the issue is",
+            "Why it became important",
+            "What different groups think about it",
+            "Why it is worth discussing in English"
+          ]
+        }
+      },
+      "writing_task": {
+        "summary_120w": "Write a 120-word summary of 'Cuba’s broken economy leaves it at Donald Trump’s mercy' without looking back at the text.",
+        "essay_prompt": "Use 'Cuba’s broken economy leaves it at Donald Trump’s mercy' as background. Discuss whether governments should prioritise short-term stability or long-term reform when facing international pressure.",
+        "sentence_pattern": "There is growing concern that ..., yet the deeper issue is whether ...",
+        "task2_prompt": "Some people believe topics like 'Cuba’s broken economy leaves it at Donald Trump’s mercy' show that governments should solve immediate crises before investing in long-term change. To what extent do you agree or disagree?",
+        "outline_prompt": "Write an IELTS Task 2 outline with introduction, two body paragraphs, and conclusion."
+      },
+      "vocabulary": [
+        {
+          "phrase": "united states",
+          "score": 24,
+          "example": "They have happened thanks to intense pressure from the United States."
+        },
+        {
+          "phrase": "fidel castro",
+          "score": 23,
+          "example": "On March 16th Oscar Pérez-Oliva Fraga, a great-nephew of Fidel Castro, appeared on “Mesa Redonda”, a state-television programme."
+        },
+        {
+          "phrase": "trump administration",
+          "score": 22,
+          "example": "In January American special forces snatched Nicolás Maduro from Venezuela and the Trump administration took control of the country’s oil output, which had previously been Cuba’s main source of energy."
+        },
+        {
+          "phrase": "castro family",
+          "score": 19,
+          "example": "Power still resides with the Castro family: Miguel Díaz-Canel, the current president, publicly vowed at his inauguration in 2018 to defer to Raúl on all major decisions."
+        },
+        {
+          "phrase": "private firms",
+          "score": 14,
+          "example": "In February the government quietly began to allow private firms to import fuel, breaking the state’s long-held monopoly."
+        },
+        {
+          "phrase": "cuban medical",
+          "score": 17,
+          "example": "It has blocked fuel shipments and coerced countries to expel Cuban medical missions, stanching the regime’s supply of foreign currency."
+        },
+        {
+          "phrase": "foreign currency",
+          "score": 13,
+          "example": "It has blocked fuel shipments and coerced countries to expel Cuban medical missions, stanching the regime’s supply of foreign currency."
+        },
+        {
+          "phrase": "cuban medical missions",
+          "score": 19,
+          "example": "It has blocked fuel shipments and coerced countries to expel Cuban medical missions, stanching the regime’s supply of foreign currency."
+        }
+      ],
+      "reviews": [
+        {
+          "due_date": "2026-03-31",
+          "review_type": "same_day_recall",
+          "prompt": "Retell the article from memory in 5 bullet points.",
+          "review_id": "te-2026-03-21-2026-03-31:review:the-americas-cuba-s-broken-economy-leaves-it-at-donald-trump-s-mercy:same_day_recall"
+        },
+        {
+          "due_date": "2026-04-01",
+          "review_type": "next_day_retell",
+          "prompt": "Speak for 90 seconds without notes.",
+          "review_id": "te-2026-03-21-2026-03-31:review:the-americas-cuba-s-broken-economy-leaves-it-at-donald-trump-s-mercy:next_day_retell"
+        },
+        {
+          "due_date": "2026-04-03",
+          "review_type": "three_day_phrase_review",
+          "prompt": "Reuse 5 phrases from the article in original sentences.",
+          "review_id": "te-2026-03-21-2026-03-31:review:the-americas-cuba-s-broken-economy-leaves-it-at-donald-trump-s-mercy:three_day_phrase_review"
+        },
+        {
+          "due_date": "2026-04-07",
+          "review_type": "one_week_writing_reuse",
+          "prompt": "Write a 180-word opinion paragraph using the article as evidence.",
+          "review_id": "te-2026-03-21-2026-03-31:review:the-americas-cuba-s-broken-economy-leaves-it-at-donald-trump-s-mercy:one_week_writing_reuse"
+        },
+        {
+          "due_date": "2026-04-14",
+          "review_type": "two_week_speaking_reuse",
+          "prompt": "Answer one IELTS-style Part 3 question related to the topic.",
+          "review_id": "te-2026-03-21-2026-03-31:review:the-americas-cuba-s-broken-economy-leaves-it-at-donald-trump-s-mercy:two_week_speaking_reuse"
+        }
+      ],
+      "difficulty_score": 83,
+      "difficulty_level": "C2",
+      "difficulty_metrics": {
+        "word_count": 2581,
+        "sentence_count": 146,
+        "avg_sentence_length": 17.68,
+        "lexical_density": 0.627,
+        "unique_ratio": 0.584,
+        "long_word_ratio": 0.254,
+        "capitalized_ratio": 0.166
+      },
+      "estimated_minutes": 40,
+      "tags": [
+        "business",
+        "ielts-speaking",
+        "ielts-writing",
+        "politics"
+      ],
+      "mode": "ielts"
+    },
+    {
+      "date": "2026-04-01",
+      "task_id": "te-2026-03-21-2026-03-31:study:2",
+      "article_id": "finance-economics-china-cannot-escape-the-energy-shock",
+      "title": "China cannot escape the energy shock",
+      "section": "Finance & economics",
+      "task_type": "deep_read",
+      "reading_focus": [
+        "Skim 'China cannot escape the energy shock' in 3 minutes and write the main idea of each paragraph group.",
+        "Underline the author's opinion, any concession, and the final conclusion.",
+        "Choose 3 phrases you could reuse in IELTS Writing Task 2."
+      ],
+      "speaking_task": {
+        "warmup": "Give a 30-second summary of why 'China cannot escape the energy shock' matters.",
+        "retell": "Record a 2-minute retelling: issue, causes, consequences, and your opinion.",
+        "part3_questions": [
+          "Why do international readers care about finance & economics issues like this?",
+          "Do media reports shape public opinion or mainly reflect it?",
+          "What background knowledge would help someone discuss this topic confidently in IELTS?"
+        ],
+        "shadowing_sentence": "THE COASTAL Chinese city of Zhuhai is linked to Hong Kong by a showy piece of infrastructure: a 55km (34-mile) bridge and tunnel, the largest sea crossing of its kind.",
+        "part2_cue_card": {
+          "prompt": "Describe a news issue related to 'China cannot escape the energy shock' that people should understand better.",
+          "bullet_points": [
+            "What the issue is",
+            "Why it became important",
+            "What different groups think about it",
+            "Why it is worth discussing in English"
+          ]
+        }
+      },
+      "writing_task": {
+        "summary_120w": "Write a 120-word summary of 'China cannot escape the energy shock' without looking back at the text.",
+        "essay_prompt": "Use 'China cannot escape the energy shock' as background. Discuss whether governments should prioritise short-term stability or long-term reform when facing international pressure.",
+        "sentence_pattern": "There is growing concern that ..., yet the deeper issue is whether ...",
+        "task2_prompt": "Some people believe topics like 'China cannot escape the energy shock' show that governments should solve immediate crises before investing in long-term change. To what extent do you agree or disagree?",
+        "outline_prompt": "Write an IELTS Task 2 outline with introduction, two body paragraphs, and conclusion."
+      },
+      "vocabulary": [
+        {
+          "phrase": "refined products",
+          "score": 9,
+          "example": "As an emergency measure, China’s planning agency has banned exports of refined products including petrol, diesel and jet fuel."
+        },
+        {
+          "phrase": "including petrol",
+          "score": 9,
+          "example": "As an emergency measure, China’s planning agency has banned exports of refined products including petrol, diesel and jet fuel."
+        },
+        {
+          "phrase": "iranian crude",
+          "score": 13,
+          "example": "The country’s small, independent “teapot” refiners, clustered in Shandong province, are busy processing Iranian crude, which is still allowed to pass through the strait."
+        },
+        {
+          "phrase": "pass through",
+          "score": 9,
+          "example": "The country’s small, independent “teapot” refiners, clustered in Shandong province, are busy processing Iranian crude, which is still allowed to pass through the strait."
+        },
+        {
+          "phrase": "higher prices",
+          "score": 11,
+          "example": "But that assumes buyers will be willing to pay the higher prices they are now charging."
+        }
+      ],
+      "reviews": [
+        {
+          "due_date": "2026-04-01",
+          "review_type": "same_day_recall",
+          "prompt": "Retell the article from memory in 5 bullet points.",
+          "review_id": "te-2026-03-21-2026-03-31:review:finance-economics-china-cannot-escape-the-energy-shock:same_day_recall"
+        },
+        {
+          "due_date": "2026-04-02",
+          "review_type": "next_day_retell",
+          "prompt": "Speak for 90 seconds without notes.",
+          "review_id": "te-2026-03-21-2026-03-31:review:finance-economics-china-cannot-escape-the-energy-shock:next_day_retell"
+        },
+        {
+          "due_date": "2026-04-04",
+          "review_type": "three_day_phrase_review",
+          "prompt": "Reuse 5 phrases from the article in original sentences.",
+          "review_id": "te-2026-03-21-2026-03-31:review:finance-economics-china-cannot-escape-the-energy-shock:three_day_phrase_review"
+        },
+        {
+          "due_date": "2026-04-08",
+          "review_type": "one_week_writing_reuse",
+          "prompt": "Write a 180-word opinion paragraph using the article as evidence.",
+          "review_id": "te-2026-03-21-2026-03-31:review:finance-economics-china-cannot-escape-the-energy-shock:one_week_writing_reuse"
+        },
+        {
+          "due_date": "2026-04-15",
+          "review_type": "two_week_speaking_reuse",
+          "prompt": "Answer one IELTS-style Part 3 question related to the topic.",
+          "review_id": "te-2026-03-21-2026-03-31:review:finance-economics-china-cannot-escape-the-energy-shock:two_week_speaking_reuse"
+        }
+      ],
+      "difficulty_score": 85,
+      "difficulty_level": "C2",
+      "difficulty_metrics": {
+        "word_count": 1003,
+        "sentence_count": 53,
+        "avg_sentence_length": 18.92,
+        "lexical_density": 0.623,
+        "unique_ratio": 0.698,
+        "long_word_ratio": 0.228,
+        "capitalized_ratio": 0.146
+      },
+      "estimated_minutes": 40,
+      "tags": [
+        "business",
+        "ielts-speaking",
+        "ielts-writing",
+        "politics"
+      ],
+      "mode": "ielts"
+    },
+    {
+      "date": "2026-04-02",
+      "task_id": "te-2026-03-21-2026-03-31:study:3",
+      "article_id": "culture-which-is-the-best-sparkling-water",
+      "title": "Which is the best sparkling water?",
+      "section": "Culture",
+      "task_type": "fast_read",
+      "reading_focus": [
+        "Skim 'Which is the best sparkling water?' in 3 minutes and write the main idea of each paragraph group.",
+        "Underline the author's opinion, any concession, and the final conclusion.",
+        "Choose 3 phrases you could reuse in IELTS Writing Task 2."
+      ],
+      "speaking_task": {
+        "warmup": "Give a 30-second summary of why 'Which is the best sparkling water?' matters.",
+        "retell": "Record a 2-minute retelling: issue, causes, consequences, and your opinion.",
+        "part3_questions": [
+          "Why do international readers care about culture issues like this?",
+          "Do media reports shape public opinion or mainly reflect it?",
+          "What background knowledge would help someone discuss this topic confidently in IELTS?"
+        ],
+        "shadowing_sentence": "A small, trim man with a neat beard, he manned his stall at the recent Brooklyn SeltzerFest with the manic energy of a caffeinated terrier, thrusting little paper cups at passers-by.",
+        "part2_cue_card": {
+          "prompt": "Describe a news issue related to 'Which is the best sparkling water?' that people should understand better.",
+          "bullet_points": [
+            "What the issue is",
+            "Why it became important",
+            "What different groups think about it",
+            "Why it is worth discussing in English"
+          ]
+        }
+      },
+      "writing_task": {
+        "summary_120w": "Write a 120-word summary of 'Which is the best sparkling water?' without looking back at the text.",
+        "essay_prompt": "Use 'Which is the best sparkling water?' as background. Discuss whether governments should prioritise short-term stability or long-term reform when facing international pressure.",
+        "sentence_pattern": "There is growing concern that ..., yet the deeper issue is whether ...",
+        "task2_prompt": "Some people believe topics like 'Which is the best sparkling water?' show that governments should solve immediate crises before investing in long-term change. To what extent do you agree or disagree?",
+        "outline_prompt": "Write an IELTS Task 2 outline with introduction, two body paragraphs, and conclusion."
+      },
+      "vocabulary": [
+        {
+          "phrase": "sparkling water",
+          "score": 22,
+          "example": "With alcohol consumption declining, sparkling water is more popular than ever."
+        },
+        {
+          "phrase": "topo chico",
+          "score": 9,
+          "example": "At the stalls on either side, consumers could sample tangerine-ginger, passionfruit, lime-mint, blackberry-cucumber and raspberry, all produced by Topo Chico, a popular Mexican brand owned by Coca-Cola."
+        }
+      ],
+      "reviews": [
+        {
+          "due_date": "2026-04-02",
+          "review_type": "same_day_recall",
+          "prompt": "Retell the article from memory in 5 bullet points.",
+          "review_id": "te-2026-03-21-2026-03-31:review:culture-which-is-the-best-sparkling-water:same_day_recall"
+        },
+        {
+          "due_date": "2026-04-03",
+          "review_type": "next_day_retell",
+          "prompt": "Speak for 90 seconds without notes.",
+          "review_id": "te-2026-03-21-2026-03-31:review:culture-which-is-the-best-sparkling-water:next_day_retell"
+        },
+        {
+          "due_date": "2026-04-05",
+          "review_type": "three_day_phrase_review",
+          "prompt": "Reuse 5 phrases from the article in original sentences.",
+          "review_id": "te-2026-03-21-2026-03-31:review:culture-which-is-the-best-sparkling-water:three_day_phrase_review"
+        },
+        {
+          "due_date": "2026-04-09",
+          "review_type": "one_week_writing_reuse",
+          "prompt": "Write a 180-word opinion paragraph using the article as evidence.",
+          "review_id": "te-2026-03-21-2026-03-31:review:culture-which-is-the-best-sparkling-water:one_week_writing_reuse"
+        },
+        {
+          "due_date": "2026-04-16",
+          "review_type": "two_week_speaking_reuse",
+          "prompt": "Answer one IELTS-style Part 3 question related to the topic.",
+          "review_id": "te-2026-03-21-2026-03-31:review:culture-which-is-the-best-sparkling-water:two_week_speaking_reuse"
+        }
+      ],
+      "difficulty_score": 86,
+      "difficulty_level": "C2",
+      "difficulty_metrics": {
+        "word_count": 440,
+        "sentence_count": 30,
+        "avg_sentence_length": 14.67,
+        "lexical_density": 0.641,
+        "unique_ratio": 0.823,
+        "long_word_ratio": 0.293,
+        "capitalized_ratio": 0.157
+      },
+      "estimated_minutes": 26,
+      "tags": [
+        "culture"
+      ],
+      "mode": "ielts"
+    },
+    {
+      "date": "2026-04-03",
+      "task_id": "te-2026-03-21-2026-03-31:study:4",
+      "article_id": "middle-east-africa-a-shake-up-at-africa-s-spikiest-media-group",
+      "title": "A shake-up at Africa’s spikiest media group",
+      "section": "Middle East & Africa",
+      "task_type": "fast_read",
+      "reading_focus": [
+        "Skim 'A shake-up at Africa’s spikiest media group' in 3 minutes and write the main idea of each paragraph group.",
+        "Underline the author's opinion, any concession, and the final conclusion.",
+        "Choose 3 phrases you could reuse in IELTS Writing Task 2."
+      ],
+      "speaking_task": {
+        "warmup": "Give a 30-second summary of why 'A shake-up at Africa’s spikiest media group' matters.",
+        "retell": "Record a 2-minute retelling: issue, causes, consequences, and your opinion.",
+        "part3_questions": [
+          "Why do international readers care about middle east & africa issues like this?",
+          "Do media reports shape public opinion or mainly reflect it?",
+          "What background knowledge would help someone discuss this topic confidently in IELTS?"
+        ],
+        "shadowing_sentence": "Even before multiparty democracy was restored in the 1990s, the Guardian, a British daily, declared it (perhaps a bit breathlessly) sub-Saharan Africa’s “only truly free press”.",
+        "part2_cue_card": {
+          "prompt": "Describe a news issue related to 'A shake-up at Africa’s spikiest media group' that people should understand better.",
+          "bullet_points": [
+            "What the issue is",
+            "Why it became important",
+            "What different groups think about it",
+            "Why it is worth discussing in English"
+          ]
+        }
+      },
+      "writing_task": {
+        "summary_120w": "Write a 120-word summary of 'A shake-up at Africa’s spikiest media group' without looking back at the text.",
+        "essay_prompt": "Use 'A shake-up at Africa’s spikiest media group' as background. Discuss whether governments should prioritise short-term stability or long-term reform when facing international pressure.",
+        "sentence_pattern": "There is growing concern that ..., yet the deeper issue is whether ...",
+        "task2_prompt": "Some people believe topics like 'A shake-up at Africa’s spikiest media group' show that governments should solve immediate crises before investing in long-term change. To what extent do you agree or disagree?",
+        "outline_prompt": "Write an IELTS Task 2 outline with introduction, two body paragraphs, and conclusion."
+      },
+      "vocabulary": [
+        {
+          "phrase": "east africa",
+          "score": 8,
+          "example": "Now the press in Kenya, and across east Africa, face a shake-up."
+        },
+        {
+          "phrase": "nation group",
+          "score": 12,
+          "example": "The Nation group, which owns dozens of newspapers, TV stations and radio outlets in the region, reported pre-tax losses and declining revenue in 2023 and 2024 (the latest year for which there is data)."
+        },
+        {
+          "phrase": "kenya press",
+          "score": 9,
+          "example": "Kenya’s press has long been known for its independence. Even before multiparty democracy was restored in the 1990s, the Guardian, a British daily, declared it (perhaps a bit breathlessly) sub-Saharan Africa’s “only truly free press”. Recently, its leading titles have been especially critical of William Ruto, Kenya’s president. Last year one pronounced his government a “Rogue Regime” on its front page."
+        },
+        {
+          "phrase": "ruto kenya",
+          "score": 8,
+          "example": "Kenya’s press has long been known for its independence. Even before multiparty democracy was restored in the 1990s, the Guardian, a British daily, declared it (perhaps a bit breathlessly) sub-Saharan Africa’s “only truly free press”. Recently, its leading titles have been especially critical of William Ruto, Kenya’s president. Last year one pronounced his government a “Rogue Regime” on its front page."
+        }
+      ],
+      "reviews": [
+        {
+          "due_date": "2026-04-03",
+          "review_type": "same_day_recall",
+          "prompt": "Retell the article from memory in 5 bullet points.",
+          "review_id": "te-2026-03-21-2026-03-31:review:middle-east-africa-a-shake-up-at-africa-s-spikiest-media-group:same_day_recall"
+        },
+        {
+          "due_date": "2026-04-04",
+          "review_type": "next_day_retell",
+          "prompt": "Speak for 90 seconds without notes.",
+          "review_id": "te-2026-03-21-2026-03-31:review:middle-east-africa-a-shake-up-at-africa-s-spikiest-media-group:next_day_retell"
+        },
+        {
+          "due_date": "2026-04-06",
+          "review_type": "three_day_phrase_review",
+          "prompt": "Reuse 5 phrases from the article in original sentences.",
+          "review_id": "te-2026-03-21-2026-03-31:review:middle-east-africa-a-shake-up-at-africa-s-spikiest-media-group:three_day_phrase_review"
+        },
+        {
+          "due_date": "2026-04-10",
+          "review_type": "one_week_writing_reuse",
+          "prompt": "Write a 180-word opinion paragraph using the article as evidence.",
+          "review_id": "te-2026-03-21-2026-03-31:review:middle-east-africa-a-shake-up-at-africa-s-spikiest-media-group:one_week_writing_reuse"
+        },
+        {
+          "due_date": "2026-04-17",
+          "review_type": "two_week_speaking_reuse",
+          "prompt": "Answer one IELTS-style Part 3 question related to the topic.",
+          "review_id": "te-2026-03-21-2026-03-31:review:middle-east-africa-a-shake-up-at-africa-s-spikiest-media-group:two_week_speaking_reuse"
+        }
+      ],
+      "difficulty_score": 93,
+      "difficulty_level": "C2",
+      "difficulty_metrics": {
+        "word_count": 427,
+        "sentence_count": 21,
+        "avg_sentence_length": 20.33,
+        "lexical_density": 0.642,
+        "unique_ratio": 0.774,
+        "long_word_ratio": 0.265,
+        "capitalized_ratio": 0.187
+      },
+      "estimated_minutes": 26,
+      "tags": [
+        "politics"
+      ],
+      "mode": "ielts"
+    },
+    {
+      "date": "2026-04-04",
+      "task_id": "te-2026-03-21-2026-03-31:study:5",
+      "article_id": "asia-a-deadly-strike-in-kabul-could-have-big-knock-on-effects",
+      "title": "A deadly strike in Kabul could have big knock-on effects",
+      "section": "Asia",
+      "task_type": "fast_read",
+      "reading_focus": [
+        "Skim 'A deadly strike in Kabul could have big knock-on effects' in 3 minutes and write the main idea of each paragraph group.",
+        "Underline the author's opinion, any concession, and the final conclusion.",
+        "Choose 3 phrases you could reuse in IELTS Writing Task 2."
+      ],
+      "speaking_task": {
+        "warmup": "Give a 30-second summary of why 'A deadly strike in Kabul could have big knock-on effects' matters.",
+        "retell": "Record a 2-minute retelling: issue, causes, consequences, and your opinion.",
+        "part3_questions": [
+          "Why do international readers care about asia issues like this?",
+          "Do media reports shape public opinion or mainly reflect it?",
+          "What background knowledge would help someone discuss this topic confidently in IELTS?"
+        ],
+        "shadowing_sentence": "BACK IN 2010 it was known as Camp Phoenix, an American base.",
+        "part2_cue_card": {
+          "prompt": "Describe a news issue related to 'A deadly strike in Kabul could have big knock-on effects' that people should understand better.",
+          "bullet_points": [
+            "What the issue is",
+            "Why it became important",
+            "What different groups think about it",
+            "Why it is worth discussing in English"
+          ]
+        }
+      },
+      "writing_task": {
+        "summary_120w": "Write a 120-word summary of 'A deadly strike in Kabul could have big knock-on effects' without looking back at the text.",
+        "essay_prompt": "Use 'A deadly strike in Kabul could have big knock-on effects' as background. Discuss whether governments should prioritise short-term stability or long-term reform when facing international pressure.",
+        "sentence_pattern": "There is growing concern that ..., yet the deeper issue is whether ...",
+        "task2_prompt": "Some people believe topics like 'A deadly strike in Kabul could have big knock-on effects' show that governments should solve immediate crises before investing in long-term change. To what extent do you agree or disagree?",
+        "outline_prompt": "Write an IELTS Task 2 outline with introduction, two body paragraphs, and conclusion."
+      },
+      "vocabulary": [
+        {
+          "phrase": "another reason pakistani",
+          "score": 8,
+          "example": "BACK IN 2010 it was known as Camp Phoenix, an American base. More recently it was called the Omid Addiction Treatment Hospital, where more than 2,000 patients—most of them hooked on heroin or methamphetamine—were given a chance of redemption. Now the site in Kabul, Afghanistan’s capital, will be remembered for another reason: a Pakistani airstrike on March 16th that killed at least 143 people."
+        },
+        {
+          "phrase": "pakistan claimed",
+          "score": 12,
+          "example": "Pakistan claimed the attack was “precisely targeted” at a terrorist site."
+        }
+      ],
+      "reviews": [
+        {
+          "due_date": "2026-04-04",
+          "review_type": "same_day_recall",
+          "prompt": "Retell the article from memory in 5 bullet points.",
+          "review_id": "te-2026-03-21-2026-03-31:review:asia-a-deadly-strike-in-kabul-could-have-big-knock-on-effects:same_day_recall"
+        },
+        {
+          "due_date": "2026-04-05",
+          "review_type": "next_day_retell",
+          "prompt": "Speak for 90 seconds without notes.",
+          "review_id": "te-2026-03-21-2026-03-31:review:asia-a-deadly-strike-in-kabul-could-have-big-knock-on-effects:next_day_retell"
+        },
+        {
+          "due_date": "2026-04-07",
+          "review_type": "three_day_phrase_review",
+          "prompt": "Reuse 5 phrases from the article in original sentences.",
+          "review_id": "te-2026-03-21-2026-03-31:review:asia-a-deadly-strike-in-kabul-could-have-big-knock-on-effects:three_day_phrase_review"
+        },
+        {
+          "due_date": "2026-04-11",
+          "review_type": "one_week_writing_reuse",
+          "prompt": "Write a 180-word opinion paragraph using the article as evidence.",
+          "review_id": "te-2026-03-21-2026-03-31:review:asia-a-deadly-strike-in-kabul-could-have-big-knock-on-effects:one_week_writing_reuse"
+        },
+        {
+          "due_date": "2026-04-18",
+          "review_type": "two_week_speaking_reuse",
+          "prompt": "Answer one IELTS-style Part 3 question related to the topic.",
+          "review_id": "te-2026-03-21-2026-03-31:review:asia-a-deadly-strike-in-kabul-could-have-big-knock-on-effects:two_week_speaking_reuse"
+        }
+      ],
+      "difficulty_score": 92,
+      "difficulty_level": "C2",
+      "difficulty_metrics": {
+        "word_count": 374,
+        "sentence_count": 20,
+        "avg_sentence_length": 18.7,
+        "lexical_density": 0.599,
+        "unique_ratio": 0.786,
+        "long_word_ratio": 0.302,
+        "capitalized_ratio": 0.168
+      },
+      "estimated_minutes": 26,
+      "tags": [
+        "politics"
+      ],
+      "mode": "ielts"
+    }
+  ],
+  "mode": "ielts"
+}

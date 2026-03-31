@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="panel">
+  <div class="panel-head">
+    <div>
+      <p class="eyebrow">Study Pack</p>
+      <h1>{{ pack.pack_id }}</h1>
+      <p class="muted">{{ pack.mode }} mode · starts {{ pack.start_date }}</p>
+    </div>
+  </div>
+
+  <div class="summary-banner">
+    <span>Focus topics: {{ pack.focus_topics|join(", ") or "general" }}</span>
+    <span>{{ pack.weekly_plan|length }} tasks</span>
+  </div>
+
+  {% for task in pack.weekly_plan %}
+  <article class="task-card">
+    <div class="task-topline">
+      <span class="pill">{{ task.section }}</span>
+      <span class="pill subtle">{{ task.task_type }}</span>
+      <span class="status {{ task.status or 'pending' }}">{{ task.status or 'pending' }}</span>
+    </div>
+    <h2>{{ task.date }} · {{ task.title }}</h2>
+    <p class="muted">{{ task.estimated_minutes }} min · {{ task.difficulty_level }} {{ task.difficulty_score }}</p>
+
+    <div class="task-split">
+      <div>
+        <h3>Reading</h3>
+        <ul class="plain-list">
+          {% for item in task.reading_focus %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div>
+        <h3>Speaking</h3>
+        <ul class="plain-list">
+          <li>{{ task.speaking_task.warmup }}</li>
+          <li>{{ task.speaking_task.retell }}</li>
+          <li>{{ task.speaking_task.shadowing_sentence }}</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Writing</h3>
+        <ul class="plain-list">
+          <li>{{ task.writing_task.summary_120w }}</li>
+          <li>{{ task.writing_task.essay_prompt }}</li>
+          {% if task.writing_task.task2_prompt %}
+          <li>{{ task.writing_task.task2_prompt }}</li>
+          {% endif %}
+        </ul>
+      </div>
+    </div>
+
+    <h3>Vocabulary</h3>
+    <ul class="plain-list">
+      {% for item in task.vocabulary %}
+      <li><strong>{{ item.phrase }}</strong>: {{ item.example }}</li>
+      {% endfor %}
+    </ul>
+
+    <div class="task-actions">
+      <a
+        class="button primary"
+        href="/progress/update?item_id={{ task.task_id|urlencode }}&kind=study&pack_id={{ pack.pack_id|urlencode }}&status={{ 'pending' if task.status == 'completed' else 'completed' }}&next_url=%2Fpacks%2F{{ pack.pack_id|urlencode }}"
+      >{{ "Mark Pending" if task.status == "completed" else "Mark Complete" }}</a>
+    </div>
+  </article>
+  {% endfor %}
+</section>
+{% endblock %}

@@ -1,0 +1,14 @@
+{
+  "book_id": "web-weekly",
+  "title": "Web Weekly",
+  "source_path": "D:\\BaiduSyncdisk\\英语\\TE\\英语学习代码\\test-output\\web-runtime\\data\\uploads\\sample.epub",
+  "language": "en",
+  "publisher": "Test Publisher",
+  "published_at": "2026-03-31T00:00:00+00:00",
+  "imported_at": "2026-03-31T10:40:22.653946+00:00",
+  "description": "Sample weekly issue.",
+  "sections": [
+    "General"
+  ],
+  "article_count": 2
+}

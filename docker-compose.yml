@@ -1,0 +1,11 @@
+services:
+  epub-toolkit-web:
+    build: .
+    container_name: epub-toolkit-web
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - ./web_data:/app/web_data
+    restart: unless-stopped

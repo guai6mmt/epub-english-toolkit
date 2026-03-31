@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "items": {
+    "te-2026-03-21-2026-03-31:study:1": {
+      "status": "completed",
+      "kind": "study",
+      "pack_id": "te-2026-03-21-2026-03-31",
+      "note": "finished first deep read",
+      "completed_at": "2026-03-31T09:54:01.283441+00:00"
+    },
+    "te-2026-03-21-2026-03-31:review:the-americas-cuba-s-broken-economy-leaves-it-at-donald-trump-s-mercy:same_day_recall": {
+      "status": "completed",
+      "kind": "review",
+      "pack_id": "te-2026-03-21-2026-03-31",
+      "note": "",
+      "completed_at": "2026-03-31T09:59:06.623928+00:00"
+    }
+  }
+}
