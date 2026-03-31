@@ -68,15 +68,15 @@ def create_app(settings: WebSettings | None = None) -> FastAPI:
             "packs": list_packs(settings.packs_root, settings.tracker_path)[:12],
             "jobs": list_upload_jobs(settings.database_path, limit=12),
         }
-        return templates.TemplateResponse(request, "dashboard.html", context)
+        return templates.TemplateResponse("dashboard.html", context)
 
     @app.get("/upload")
     def upload_form(request: Request, credentials: HTTPBasicCredentials | None = Depends(security)):
         auth(request, credentials)
         return templates.TemplateResponse(
-            request,
             "upload.html",
             {
+                "request": request,
                 "today": date.today().isoformat(),
                 "default_mode": settings.default_mode,
                 "default_focus_topics": settings.default_focus_topics,
@@ -137,9 +137,9 @@ def create_app(settings: WebSettings | None = None) -> FastAPI:
             raise HTTPException(status_code=404, detail="Job not found")
         pack = load_pack(settings.packs_root, job["pack_id"], settings.tracker_path) if job.get("pack_id") else None
         return templates.TemplateResponse(
-            request,
             "job_detail.html",
             {
+                "request": request,
                 "job": job,
                 "pack": pack,
             },
@@ -149,7 +149,7 @@ def create_app(settings: WebSettings | None = None) -> FastAPI:
     def pack_detail(pack_id: str, request: Request, credentials: HTTPBasicCredentials | None = Depends(security)):
         auth(request, credentials)
         pack = load_pack(settings.packs_root, pack_id, settings.tracker_path)
-        return templates.TemplateResponse(request, "pack_detail.html", {"pack": pack})
+        return templates.TemplateResponse("pack_detail.html", {"request": request, "pack": pack})
 
     @app.get("/progress/update")
     def update_progress(
